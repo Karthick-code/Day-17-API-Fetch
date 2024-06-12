@@ -19,6 +19,7 @@ container.className = "container";
 var row = document.createElement("div");
 row.className = "row";
 api();
+
 function foo(data1) {
 
   for (var i = 0; i < data1.length; i++) {
@@ -41,7 +42,7 @@ function foo(data1) {
         <button type="button" class="btn btn-primary"  onclick="weather_report(${lat}, ${lng})" >Click for weather</button>
       </div></h1>`;
     row.append(col);
-    //weather_report(lat, lng)
+    
   }
   
 
